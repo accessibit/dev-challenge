@@ -34,7 +34,7 @@ form sul nostro sito.
 2. Aggiungi l'utente GitHub **`accessibit-hiring`** come collaboratore
    (Settings → Collaborators → Add people).
 3. Compila il form di consegna che trovi nell'email di invito, con l'URL del repo.
-   Contiene 6 domande brevi (circa 10 minuti): rispondi subito dopo aver finito, a
+   Contiene due domande brevi (circa 5 minuti): rispondi subito dopo aver finito, a
    memoria fresca.
 
 ## Sull'uso dell'AI

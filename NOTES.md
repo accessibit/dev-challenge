@@ -9,7 +9,7 @@ Non serve che sia lungo: ci interessano le decisioni, non la prosa.
 
 ## Decisioni e assunzioni
 
-<!-- Dove il ticket non era chiaro: cosa hai scelto, perché, e quale alternativa hai scartato. -->
+<!-- Dove il ticket non era chiaro: cosa hai scelto, perché, e quale alternativa hai scartato. Qual è la decisione di cui sei meno sicuro? -->
 
 ## Cose che ho notato lungo la strada
 
