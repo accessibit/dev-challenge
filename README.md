@@ -1,55 +1,57 @@
-# a11y-audit
+# AccessiBit — challenge tecnica
 
-> **Candidates:** this repository is the AccessiBit take-home exercise. Start from
-> [`CHALLENGE.md`](./CHALLENGE.md) for the rules and then [`TICKET.md`](./TICKET.md) for the task.
+Questo repository è l'esercizio pratico per chi si candida come engineer in AccessiBit.
+Se ci sei arrivato senza invito puoi comunque provarlo, ma le candidature passano dal
+form sul nostro sito.
 
-Minimal WCAG audit CLI. This is a small, self-contained slice of the AccessiBit
-monitoring pipeline: the same rules run nightly on client sites, and several
-clients also run this CLI in their own CI.
+## In breve
 
-## How it is used
+- **Tempo indicativo: 45–60 minuti.** Non è una gara: sforare di poco non conta, fare
+  di più non serve. Preferiamo decisioni chiare a codice in più.
+- **Puoi usare tutto ciò che usi normalmente:** AI assistant, documentazione, ricerca.
+- Ci interessa come affronti il problema, cosa decidi e come lo spieghi, non quanto
+  codice scrivi.
 
-- **CI gate** — clients run `a11y-audit ./build` in CI. Exit code `1` fails the build.
-- **Compliance evidence** — the `--json` report is archived per client and attached to
-  the periodic compliance statement we deliver to them.
-- **Dashboard** — the JSON report is ingested by the dashboard (`services/ingest`, not in
-  this repo). See the contract note in `src/report.ts` before changing the output shape.
+## Come iniziare
 
-## Quick start
+1. In alto a destra clicca **Use this template → Create a new repository** e crea un
+   repo **privato**. Non fare fork: i fork di un repo pubblico sono pubblici e visibili
+   agli altri candidati.
+2. Clona il tuo repo ed esegui `pnpm install` (Node 20+; anche `npm install` va bene).
+3. Leggi `PROJECT.md` (il README del progetto: contesto, quick start, layout), poi
+   `TICKET.md`: è il tuo task. Lavoraci come se fosse il tuo primo giorno da noi.
 
-```bash
-pnpm install
-pnpm a11y fixtures/acme            # human-readable output, exit code 1 on findings
-pnpm a11y fixtures/acme --json     # JSON report (the shape the dashboard ingests)
-pnpm test
-pnpm typecheck
-```
+## Cosa consegnare
 
-Requires Node 20+ and pnpm (`corepack enable` if you don't have it). npm works too:
-`npm install && npm run a11y -- fixtures/acme`.
+- Il codice, con i test che ritieni necessari.
+- `NOTES.md` compilato: decisioni, assunzioni, cose che hai notato, cosa non hai fatto,
+  come hai usato l'AI, tempo impiegato. Corto e specifico batte lungo e generico.
+- Commit come li faresti normalmente lavorando in un team.
 
-## Layout
+## Come consegnare
 
-```
-src/
-  cli.ts          entry point, exit codes
-  audit.ts        collects pages, runs rules, builds findings
-  rules/          one file per rule (id, WCAG criterion, impact, check())
-  report.ts       report shape + text formatter  ← read the contract note
-  selector.ts     CSS-like path + snippet for an element
-fixtures/         real-ish client pages used as test data (acme, globex)
-tests/            vitest
-```
+1. Fai push sul tuo repo privato.
+2. Aggiungi l'utente GitHub **`accessibit-hiring`** come collaboratore
+   (Settings → Collaborators → Add people).
+3. Compila il form di consegna che trovi nell'email di invito, con l'URL del repo.
+   Contiene 6 domande brevi (circa 10 minuti): rispondi subito dopo aver finito, a
+   memoria fresca.
 
-## Rules
+## Sull'uso dell'AI
 
-| id            | WCAG  | impact   |
-| ------------- | ----- | -------- |
-| img-alt       | 1.1.1 | critical |
-| iframe-title  | 4.1.2 | serious  |
-| link-name     | 2.4.4 | serious  |
-| heading-order | 1.3.1 | moderate |
+Usala quanto vuoi, come la useresti al lavoro. Ti chiediamo due cose: raccontaci
+onestamente come l'hai usata (nelle NOTES e nel form), e consegna solo ciò che sei in
+grado di spiegare e difendere. Nel colloquio successivo parleremo delle tue scelte nel
+dettaglio.
 
-Rules are deliberately simple approximations (no full accessible-name computation,
-no ARIA role handling). Adding a rule means adding a file in `src/rules/` and
-registering it in `src/rules/index.ts`.
+## Cosa succede dopo
+
+Ti rispondiamo entro 3 giorni lavorativi. I candidati che passano fanno una conversazione
+di circa 45 minuti con un nostro senior engineer sul lavoro consegnato, e poi
+eventualmente un breve trial retribuito.
+
+## Domande?
+
+Il ticket contiene tutto ciò che serve per prendere decisioni ragionevoli: decidere e
+documentare le decisioni fa parte dell'esercizio. Per problemi tecnici (setup, accesso)
+rispondi all'email di invito.
