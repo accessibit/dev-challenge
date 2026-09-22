@@ -41,5 +41,5 @@ I finding "accettati" non devono far fallire la build.
 
 ## Note
 
-Il PM (Luca) è in ferie fino a lunedì. Se qualcosa non è chiaro decidi tu e scrivilo
-in `NOTES.md`: preferiamo una decisione ragionata e documentata a un blocco.
+Il PM (Luca) è in ferie fino a lunedì. Se qualcosa non è chiaro decidi tu e spiega
+la decisione nella consegna: preferiamo una decisione ragionata e documentata a un blocco.

@@ -24,9 +24,9 @@ form sul nostro sito.
 ## Cosa consegnare
 
 - Il codice, con i test che ritieni necessari.
-- `NOTES.md` compilato: decisioni, assunzioni, cose che hai notato, cosa non hai fatto,
-  come hai usato l'AI, tempo impiegato. Corto e specifico batte lungo e generico.
 - Commit come li faresti normalmente lavorando in un team.
+- Le tue decisioni e il tuo ragionamento li raccogliamo nel form di consegna, non nel
+  repo: mentre lavori tieni traccia di cosa decidi, cosa noti e come usi l'AI.
 
 ## Come consegnare
 
@@ -34,13 +34,13 @@ form sul nostro sito.
 2. Aggiungi l'utente GitHub **`accessibit-hiring`** come collaboratore
    (Settings → Collaborators → Add people).
 3. Compila il form di consegna che trovi nell'email di invito, con l'URL del repo.
-   Contiene due domande brevi (circa 5 minuti): rispondi subito dopo aver finito, a
-   memoria fresca.
+   Contiene alcune domande sul tuo lavoro (circa 15 minuti): rispondi subito dopo aver
+   finito, a memoria fresca. Corto e specifico batte lungo e generico.
 
 ## Sull'uso dell'AI
 
 Usala quanto vuoi, come la useresti al lavoro. Ti chiediamo due cose: raccontaci
-onestamente come l'hai usata (nelle NOTES e nel form), e consegna solo ciò che sei in
+onestamente come l'hai usata (nel form di consegna), e consegna solo ciò che sei in
 grado di spiegare e difendere. Nel colloquio successivo parleremo delle tue scelte nel
 dettaglio.
 
