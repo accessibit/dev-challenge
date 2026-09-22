@@ -1,6 +1,6 @@
 # AccessiBit — challenge tecnica
 
-Questo repository è l'esercizio pratico per chi si candida come engineer in AccessiBit.
+Questo repository è l'esercizio pratico per chi si candida come developer in AccessiBit.
 Se ci sei arrivato senza invito puoi comunque provarlo, ma le candidature passano dal
 form sul nostro sito.
 
@@ -47,7 +47,7 @@ dettaglio.
 ## Cosa succede dopo
 
 Ti rispondiamo entro 3 giorni lavorativi. I candidati che passano fanno una conversazione
-di circa 45 minuti con un nostro senior engineer sul lavoro consegnato, e poi
+di circa 45 minuti con un nostro senior developer sul lavoro consegnato, e poi
 eventualmente un breve trial retribuito.
 
 ## Domande?
