@@ -1,0 +1,29 @@
+{
+  "name": "@accessibit/a11y-audit",
+  "version": "0.4.2",
+  "private": true,
+  "description": "Minimal WCAG audit CLI used by the monitoring pipeline and by clients in CI.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@11.10.0",
+  "bin": {
+    "a11y-audit": "./src/cli.ts"
+  },
+  "scripts": {
+    "a11y": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "node-html-parser": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
