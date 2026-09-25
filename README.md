@@ -1,6 +1,6 @@
 # AccessiBit — challenge tecnica
 
-Questo repository è l'esercizio pratico per chi si candida come developer in AccessiBit.
+Questa repository è l'esercizio pratico per chi si candida come developer in AccessiBit.
 Se ci sei arrivato senza invito puoi comunque provarlo, ma le candidature passano dal
 form sul nostro sito.
 
@@ -14,10 +14,10 @@ form sul nostro sito.
 
 ## Come iniziare
 
-1. In alto a destra clicca **Use this template → Create a new repository** e crea un
-   repo **privato**. Non fare fork: i fork di un repo pubblico sono pubblici e visibili
+1. In alto a destra clicca **Use this template → Create a new repository** e crea una
+   repo **privata**. Non fare fork: i fork di una repo pubblica sono pubblici e visibili
    agli altri candidati.
-2. Clona il tuo repo ed esegui `pnpm install` (Node 20+; anche `npm install` va bene).
+2. Clona la tua repo ed esegui `pnpm install` (Node 20+; anche `npm install` va bene).
 3. Leggi `PROJECT.md` (il README del progetto: contesto, quick start, layout), poi
    `TICKET.md`: è il tuo task. Lavoraci come se fosse il tuo primo giorno da noi.
 
@@ -30,12 +30,17 @@ form sul nostro sito.
 
 ## Come consegnare
 
-1. Fai push sul tuo repo privato.
+1. Fai push del lavoro finito sul branch **`main`** della tua repo privata. Se hai
+   lavorato su un altro branch, fai merge su `main` prima di consegnare: valutiamo
+   solo il branch di default.
 2. Aggiungi l'utente GitHub **`accessibit-team`** come collaboratore
    (Settings → Collaborators → Add people).
-3. Compila il form di consegna che trovi nell'email di invito, con l'URL del repo.
-   Contiene alcune domande sul tuo lavoro (circa 15 minuti): rispondi subito dopo aver
-   finito, a memoria fresca. Corto e specifico batte lungo e generico.
+3. **Solo dopo aver pushato**, compila il form di consegna che trovi nell'email di
+   invito, con l'URL della repo. La valutazione parte nel momento in cui invii il form e
+   guarda il codice presente su GitHub in quell'istante: quello che pushi dopo non
+   viene letto.
+   Il form contiene alcune domande sul tuo lavoro (circa 15 minuti): rispondi subito
+   dopo aver finito, a memoria fresca. Corto e specifico batte lungo e generico.
 
 ## Sull'uso dell'AI
 
