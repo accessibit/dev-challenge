@@ -31,7 +31,7 @@ form sul nostro sito.
 ## Come consegnare
 
 1. Fai push sul tuo repo privato.
-2. Aggiungi l'utente GitHub **`riccardolinares`** come collaboratore
+2. Aggiungi l'utente GitHub **`accessibit-team`** come collaboratore
    (Settings → Collaborators → Add people).
 3. Compila il form di consegna che trovi nell'email di invito, con l'URL del repo.
    Contiene alcune domande sul tuo lavoro (circa 15 minuti): rispondi subito dopo aver
